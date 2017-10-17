@@ -1,0 +1,60 @@
+{
+    "tickets": [
+        {
+            "id": 1,
+            "firstName": "Zeljko",
+            "lastName": "Rumenjak",
+            "company": "Shoutem",
+            "role": "speaker",
+            "track": "js"
+        },
+        {
+            "id": 2,
+            "firstName": "Marijn",
+            "lastName": "Haverbeke",
+            "company": "Freelance",
+            "role": "speaker",
+            "track": "js"
+        },
+        {
+            "id": 3,
+            "firstName": "Jason",
+            "lastName": "Lengstorf",
+            "company": "IBM",
+            "role": "speaker",
+            "track": "js"
+        },
+        {
+            "id": 4,
+            "firstName": "Princiya",
+            "lastName": "Marina Sequeira",
+            "company": "Zalando",
+            "role": "speaker",
+            "track": "js"
+        },
+        {
+            "id": 5,
+            "firstName": "Luciano",
+            "lastName": "Mammino",
+            "company": "Planet 9 Energy",
+            "role": "speaker",
+            "track": "js"
+        },
+        {
+            "id": 6,
+            "firstName": "James",
+            "lastName": "Allardice",
+            "company": "Tesco",
+            "role": "speaker",
+            "track": "js"
+        },
+        {
+            "id": 7,
+            "firstName": "Domagoj",
+            "lastName": "Rukavina",
+            "company": "Shoutem",
+            "role": "speaker",
+            "track": "js"
+        }
+    ]
+}
