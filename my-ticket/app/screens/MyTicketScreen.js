@@ -87,7 +87,7 @@ export class MyTicketScreen extends Component {
       <View style={styles.scanTicketContainer}>
         <Image
           style={styles.scanTicketBarcode}
-          source={require('../assets/barcode.png')}
+          source={require('../assets/ticket-barcode.png')}
         />
         <Button
           style={styles.scanTicketButton}
