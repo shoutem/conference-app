@@ -7,6 +7,11 @@
   "screens": [
     {
       "name": "MyTicketScreen"
+    },
+    {
+      "name": "ConferenceEventsLargeTilesScreen",
+      "title": "Conference events with big tiles",
+      "extends": "shoutem.events.EventsScreen"
     }
   ],
   "shortcuts": [
@@ -15,6 +20,12 @@
       "title": "My ticket",
       "description": "A shortcut for MyTicketScreen",
       "screen": "@.MyTicketScreen"
+    },
+    {
+      "name": "ConferenceEventsLargeTilesScreen",
+      "title": "Conference events large tiles screen",
+      "description": "A shortcut for ConferenceEventsLargeTilesScreen",
+      "screen": "@.ConferenceEventsLargeTilesScreen"
     }
   ]
 }

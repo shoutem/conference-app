@@ -4,7 +4,9 @@
 
 // screens imports
 import MyTicketScreen from './screens/MyTicketScreen';
+import ConferenceEventsLargeTilesScreen from './screens/ConferenceEventsLargeTilesScreen';
 
 export const screens = {
-  MyTicketScreen
+  MyTicketScreen,
+  ConferenceEventsLargeTilesScreen,
 };
