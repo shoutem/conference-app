@@ -67,6 +67,8 @@ const styles = {
   },
 };
 
+const TICKETS_ENDPOINT = 'https://my-json-server.typicode.com/shoutem/conference-app/tickets';
+
 export class MyTicketScreen extends Component {
   state = { ticket: null }
 
@@ -78,8 +80,11 @@ export class MyTicketScreen extends Component {
   }
 
   handleQRCode(code) {
-    const ticket = JSON.parse(code);
-    this.setState({ ticket });
+    const ticketCode = JSON.parse(code);
+    fetch(`${TICKETS_ENDPOINT}/${ticketCode.id}`)
+      .then(response => response.json())
+      .then(ticket => this.setState({ ticket })
+    );
   }
 
   renderScanTicketView() {
